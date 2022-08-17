@@ -1,0 +1,64 @@
+.colUp1{
+  width: 720px;
+  height: 720px;
+  background-color: beige;
+}
+
+.inColUp1{
+  width: 710px;
+  height: 240px;
+  background-color: #C901AA;
+}
+
+.inColUp2{
+  width: 350px;
+  height: 240px;
+  background-color: #8C8D8A;
+}
+.inColUp4{
+  width: 120px;
+  height: 150px;
+  background-color: #AAFFCC;
+}
+.inColUp5{
+  width: 120px;
+  height: 150px;
+  background-color: #9A9B9C;
+}
+
+
+.lower1{
+  width:380px;
+  height: 232px;
+  border-style: solid;
+}
+.llow2{
+  width: 200px;
+  height:230px;
+  border-style: solid;
+}
+.lower3{
+  height: 100px;
+  width:292px;
+  border-style:solid;
+}
+.RightLow{
+  width: 350px;
+  height: 220px;
+  border-style: solid;
+}
+.lowBanner1{
+  height: 220px;
+  width: 220px;
+  border-style:solid;
+}
+.lowBanner2{
+  height: 220px;
+  width: 220px;
+  border-style:solid;
+}
+.lowBanner3{
+  height: 220px;
+  width: 220px;
+  border-style:solid;
+}
