@@ -1,0 +1,6 @@
+{
+    "NEA":[{"id":1,"access_people":6747,"access_company":3458,"legal_people":24,"normal_people":3454,"activities":56,"participant":3456}],
+    "Country_Usage" : [{"id":1,"cname":"TH","amount_user":1,"cubes":11},{"id":2,"cname":"VT","amount_user":2,"cubes":12}],
+    "Provinces":[{"id":1,"pname":"กทม"}]
+    
+}

@@ -2,54 +2,139 @@
 <div class="container">
   <div class="row">
     <div class="col colUp1">
-
+      <div class="row">
         <div class="row">
-            <div class="col-sm inColUp1">
-              <div class="row">
-                  <div class="col-sm inColUp2"></div>
+          <div class="col inColUp2" *ngFor="let ix of resp" style="background-image:url('./assets/Businessx.jpg');">
 
-                      <div class="col-sm inColUp3">
-                            <div class="row">
-                                <div class="col-sm inColUp4"></div>
-                                <div class="col-sm inColUp5"></div>
-                            </div>
-                      </div>
-                    </div>
+            <p class="nea1" >NEA</p>
+            <p class="nea2">เข้าถึงประชาชนและผู้ประกอบการมากกว่า</p>
+            <p class="nea3">{{ix.access_people}} ราย</p>
+            <p class="nea4">เข้าถึงประชาชนและผู้ประกอบการมากกว่า</p>
+            <p class="nea5">{{ix.access_company}} ราย</p>
+
             </div>
+            <div class="col inColUp3">
+              <div class="row">
+                  <div class="col inColUp4" *ngFor="let ix of resp">
+                      <p class="users1">{{ix.legal_people}}</p>
+                      <p class="users2">นิติบุคคล</p>
+                  </div>
+                  <div class="col inColUp5" *ngFor="let ix of resp">
+                    <p class="users3">{{ix.normal_people}}</p>
+                    <p class="users4">บุคคลทั่วไป</p>
+                  </div>
+                  <div><img [src]=" './assets/BI_PIC1.jpg' "></div>
+              </div>
 
-        </div>
-        <div class="row">
-          <div class="col-sm">
-            1-1
+                      </div>
+                </div>
+              </div>
+        <div class="row" >
+          <div class="col" style="background-image: url('./assets/ThaiMapp.svg'); ">
+            </div>
+          <div class="col-sm inColbott1" >
+            <p class="acc_country1">การเข้าถึงแต่ละส่วนของประเทศ
+            </p>
+              <table class ="t1" *ngFor="let idx of resp3">
+
+                <p class="acc_country2">การเข้าถึง</p>
+                    <tr style="font-size:14px;font-weight:bold;color:rgb(255,255,255);">
+                      <th>จังหวัด</th>
+                      <th>จำนวน</th>
+                      </tr>
+
+                   <tr style="font-size:12px;color:rgb(255,255,255); text-align: center;">
+                      <td>{{idx.pname}}</td>
+                      <td>{{resp3.length}}</td>
+                    </tr>
+                   <tr>
+                    <th>รวม : {{resp3.length}}</th>
+                    </tr>
+                </table>
+
           </div>
-          <div class="col-sm">
-            1-2
+          <div class="col inColbott2">
+
+              <p class="justify-content-*" style="color:rgb(65,87,141);font-size:16px;font-weight:bold;">การเข้าถึงช่องทาง E-learning</p>
+              <p class="justify-content-*" style="color:rgb(65,87,141);">แบ่งตามภูมิภาค</p>
+                <img [src]=" './assets/line_chart.JPG' ">
+                <img [src]=" './assets/stack_chart.JPG' ">
+
+
         </div>
         </div>
     </div>
     <div class="col">
         <div class="row">
-            <div class="col lower1"></div>
-            <div class="col llow2"></div>
-        </div>
+            <div style="width: 80%;height:225px;" class="col-lg"><p style="font-weight: bold;color:rgb(73,93,143);">Customer journy</p>
+              <img [src]=" './assets/worldMap.jpg' ">
+            </div>
+            <div style="width: 33%;height:225px;background-color: rgb(60,80,156);" class="col-xs"><p style="color:#FFF;font-weight:bold;">Top 5 ประเทศทีมีผู้ประกอบการ NEA เข้าร่วม</p>som_txt
+              <table >
+                  <tr style="font-size:18px;font-weight:bold;color:rgb(255,255,255);">
+                    <th>ประเทศ</th>&nbsp;
+                    <th>จำนวนผู้ใช้</th>
+                  </tr>
+                  <tr *ngFor="let ix of resp2" style="font: 16px;color:rgb(255,255,255);text-align: center;">
+                    <td>{{ix.cname}}</td> &nbsp;
+                    <td>{{ix.amount_user}}</td>
+                  </tr>
+              </table>
+            </div>
+          </div>
+
         <div class="row">
           <div class="col lower2">
-              <div class="col lower3">
-                  Do-sth
+              <div class="col lower3" style="background-image: url('./assets/Elearn.jpg');">
+
+                  <div class="row">
+                      <div class="col elearn1">กลุ่มหลักสูตร E-learning</div>
+                      <div class="col"></div>
+                  </div>
               </div>
-              <div class="row">
-                    <div class="col-sm"><img [src]=" 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1nQnGNL0Mfkpy3TCQg7Beozyul8-KMsZRhCviMb0KVhFhmUUGYyG6Xde_hzslh7bh&usqp=CAU' " /></div>
-                    <div class="col-sm"><img [src]=" 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1nQnGNL0Mfkpy3TCQg7Beozyul8-KMsZRhCviMb0KVhFhmUUGYyG6Xde_hzslh7bh&usqp=CAU' " /></div>
+              <div class="row" *ngFor="let idx of resp">
+                    <div class="col-sm inLower1"><p style="color:#FFF;font-size:20px;font-weight:bold;">{{idx.activities}}</p><span style="color:#FFF">กิจกรรม</span></div>
+                    <div class="col-sm inLower2"><p style="color:#FFF;font-size:20px;font-weight:bold;">{{idx.participant}}</p><span style="color:#FFF">ผู้เข้าร่วม</span></div>
               </div>
           </div>
-          <div class="col RightLow"></div>
+          <div class="col RightLow"><p style="color:rgb(65,83,113);font-size:16px;font-weight:bold">สถิติผู้เข้าร่วม</p>
+            <app-chart></app-chart>
+          </div>
       </div>
       <br>
       <div class="row">
-        <div class="col lowBanner1"> </div>
-        <div class="col lowBanner2"> </div>
-        <div class="col lowBanner3"> </div>
-    </div>
+        <div class="col lowBanner1">
+          <p>มูลค่าส่งออกรวม</p>
+              <div class="col-sm">
+                <select [(ngModel)]="is_selected">
+                  <option value="">YEARปี</option>
+                  <option value="1">2011</option>
+              </select>
+
+            </div>
+              <div class="col-sm"></div>
+        </div>
+        <div class="col lowBanner2">
+            <p  style="font-size: 16px;font-weight:bold;color:#FFF;">Top 5 ประเทศที่มูลค่าส่งออกมากที่สุด</p>
+            <table>
+              <tr style="font-size:18px;font-weight:bold;color:rgb(255,255,255);">
+                <th>ประเทศ</th>
+                <th>มูลค่า(cube)</th>
+
+              </tr>
+              <tr *ngFor="let ix of resp2" style="font-size:16px;color:rgb(255,255,255); text-align: center;">
+                  <td>{{ix.cname}}</td>
+                  <td>{{ix.cubes}}</td>
+                </tr>
+                <tr>
+                    <th style="font-size:16px;color:rgb(255,255,255);">รวม : {{getSumOfCube()}}</th>
+                  </tr>
+            </table>
+        </div>
+        <div class="col lowBanner3">สัดส่วนประเภทผู้ประกอบการ
+
+            <img [src]=" './assets/stat_shareholder.JPG' "></div>
+        </div>
     </div>
 
   </div>
