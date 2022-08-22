@@ -4,16 +4,16 @@
     <div class="col colUp1">
       <div class="row">
         <div class="row">
-          <div class="col inColUp2" *ngFor="let ix of resp" style="background-image:url('./assets/Businessx.jpg');">
+          <div class="col inColUp2" *ngFor="let ix of resp" >
+              <div class="col" style="width:100%;height:100%;background-image:url('./assets/Businessx.jpg')">
+                <p class="nea1" >NEA</p>
+                <p class="nea2">เข้าถึงประชาชนและผู้ประกอบการมากกว่า</p>
+                <p class="nea3">{{ix.access_people}} ราย</p>
+                <p class="nea4">เข้าถึงประชาชนและผู้ประกอบการมากกว่า</p>
+                <p class="nea5">{{ix.access_company}} ราย</p></div>
+              </div>
 
-            <p class="nea1" >NEA</p>
-            <p class="nea2">เข้าถึงประชาชนและผู้ประกอบการมากกว่า</p>
-            <p class="nea3">{{ix.access_people}} ราย</p>
-            <p class="nea4">เข้าถึงประชาชนและผู้ประกอบการมากกว่า</p>
-            <p class="nea5">{{ix.access_company}} ราย</p>
-
-            </div>
-            <div class="col inColUp3">
+            <div class="col">
               <div class="row">
                   <div class="col inColUp4" *ngFor="let ix of resp">
                       <p class="users1">{{ix.legal_people}}</p>
@@ -23,14 +23,16 @@
                     <p class="users3">{{ix.normal_people}}</p>
                     <p class="users4">บุคคลทั่วไป</p>
                   </div>
-                  <div><img [src]=" './assets/BI_PIC1.jpg' "></div>
-              </div>
 
-                      </div>
                 </div>
+                <div class="col"  style="width:104%;height:36%;border-style:dotted;background-image:url('./assets/building1.png');">
+                  </div>
               </div>
-        <div class="row" >
-          <div class="col" style="background-image: url('./assets/ThaiMapp.svg'); ">
+            </div>
+
+          </div>
+        <div class="row">
+          <div class="col" style="background-image: url('./assets/ThaiMapp.svg');">
             </div>
           <div class="col-sm inColbott1" >
             <p class="acc_country1">การเข้าถึงแต่ละส่วนของประเทศ
@@ -66,7 +68,7 @@
     </div>
     <div class="col">
         <div class="row">
-            <div style="width: 80%;height:225px;" class="col-lg"><p style="font-weight: bold;color:rgb(73,93,143);">Customer journy</p>
+            <div style="height:225px;" class="col-lg"><p style="font-weight: bold;color:rgb(73,93,143);">Customer journy</p>
               <img [src]=" './assets/worldMap.jpg' ">
             </div>
             <div style="width: 33%;height:225px;background-color: rgb(60,80,156);" class="col-xs"><p style="color:#FFF;font-weight:bold;">Top 5 ประเทศทีมีผู้ประกอบการ NEA เข้าร่วม</p>som_txt
@@ -85,7 +87,7 @@
 
         <div class="row">
           <div class="col lower2">
-              <div class="col lower3" style="background-image: url('./assets/Elearn.jpg');">
+              <div class="col lower3" style="background-image: url('./assets/Elearning.png');">
 
                   <div class="row">
                       <div class="col elearn1">กลุ่มหลักสูตร E-learning</div>
@@ -103,9 +105,9 @@
       </div>
       <br>
       <div class="row">
-        <div class="col lowBanner1">
+        <div class="col lowBanner1" style="background-image:url('./assets/cargo-pic.png');">
           <p>มูลค่าส่งออกรวม</p>
-              <div class="col-sm">
+              <div class="col-sm" >
                 <select [(ngModel)]="is_selected">
                   <option value="">YEARปี</option>
                   <option value="1">2011</option>

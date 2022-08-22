@@ -1,38 +1,43 @@
-.colUp1{
-  width: 720px;
-  height: 720px;
 
-}
 .nea1
 {
   font-weight: bold;
   font-size: 18px;
+  font-family: "../assets/DBHeavFont/DB Heavent Cond v3.2.1.ttf";
   padding-left: 10%;
   color:#FFF;
+
 }
+
 .nea2
 {
   font-size: 16px;
+  font-family: "../assets/DBHeavFont/DB Heavent Cond v3.2.1.ttf";
   color:#FFF;
 }
 .nea3
 {
   font-weight: bold;
   font-size: 18px;
+  font-family: "../assets/DBHeavFont/DB Heavent Cond v3.2.1.ttf";
   padding-left: 10%;
   color:#FFF;
 }
 .nea4
 {
   font-size: 16px;
+  font-family: "../assets/DBHeavFont/DB Heavent Cond v3.2.1.ttf";
   color:#FFF;
 }
 .nea5{
   font-weight: bold;
   font-size: 18px;
+  font-family: "../assets/DBHeavFont/DB Heavent Bd Cond v3.2.1.ttf";
   padding-left: 10%;
   color:#FFF;
 }
+
+
 .t1
 {
   margin-left:18%;
@@ -76,9 +81,7 @@
 .acc_country1{
   color: #FFF;
 }
-.acc_country2{
 
-}
 .elearn1
 {
   font-size: 20px;
@@ -86,11 +89,7 @@
   color:#FFF;
   padding-left:25%;
 }
-.inColUp2{
-  width: 372px;
-  height: 250px;
 
-}
 .inColUp6{
   width: 110px;
   height: 312px;
@@ -106,14 +105,21 @@
   height:440px;
   background-color: rgb(255,255,255);
 }
+.inColUp2
+{
+  width:250px;
+  height:248px;
+
+}
+
 .inColUp4{
-  width: 120px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   background-color: rgb(39,59,107);
 }
 .inColUp5{
-  width: 120px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   background-color:rgb(61,88,155);
 }
 
@@ -121,7 +127,7 @@
 .lower1{
   width:474px;
   height: 228px;
-  border-style: solid;
+
 }
 
 .lower3{
