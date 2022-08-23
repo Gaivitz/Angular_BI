@@ -1,48 +1,80 @@
 
 .nea1
 {
-  font-weight: bold;
-  font-size: 18px;
-  font-family: "../assets/DBHeavFont/DB Heavent Cond v3.2.1.ttf";
-  padding-left: 10%;
-  color:#FFF;
-
+  font: normal normal normal 72px/86px DB Heavent;
 }
-
 .nea2
 {
-  font-size: 16px;
-  font-family: "../assets/DBHeavFont/DB Heavent Cond v3.2.1.ttf";
-  color:#FFF;
+
+font: normal normal normal 28px/33px DB Heavent;
+
 }
 .nea3
 {
-  font-weight: bold;
-  font-size: 18px;
-  font-family: "../assets/DBHeavFont/DB Heavent Cond v3.2.1.ttf";
-  padding-left: 10%;
-  color:#FFF;
+
+  font: normal normal normal 28px/33px DB Heavent;
+
 }
 .nea4
 {
-  font-size: 16px;
-  font-family: "../assets/DBHeavFont/DB Heavent Cond v3.2.1.ttf";
-  color:#FFF;
+
+  font: normal normal normal 28px/33px DB Heavent;
+
 }
 .nea5{
-  font-weight: bold;
-  font-size: 18px;
-  font-family: "../assets/DBHeavFont/DB Heavent Bd Cond v3.2.1.ttf";
-  padding-left: 10%;
-  color:#FFF;
+
+font: normal normal normal 28px/33px DB Heavent;
+
 }
 
 
 .t1
 {
-  margin-left:18%;
+
   color:#FFF;
-  margin-top:80%;
+  font-size: 20px;
+  font-family: "DB Heavent";
+}
+.t2
+{
+  font-size:20px;
+  font-family: DB Heavent;
+  color:#FFF;
+}
+.t3
+{
+  font-family: DB Heavent;
+  font-size: 20px;
+  color:#FFF;
+
+}
+.lower4
+{
+  font-size: 20px;
+
+  font-weight: bold;
+  font-family: DB Heavent;
+}
+.lower5
+{
+  font-size: 20px;
+
+  font-weight: bold;
+  font-family: DB Heavent;
+}
+.inLower1
+{
+  font-size: 18px;
+  color:#FFF;
+  font-weight: bold;
+  font-family: DB Heavent;
+}
+.inLower2
+{
+  font-size: 18px;
+  color:#FFF;
+  font-weight: bold;
+  font-family: DB Heavent;
 }
 .users1
 {
@@ -78,18 +110,76 @@
 
   text-align: center;
 }
+.inBanner1
+{
+  background-color: rgb(38,60,108);
+  /* Layout Properties */
+  font-weight: 300;
+  font-family: DB Heavent;
+  font-size: 24px;
+/* UI Properties */
+
+
+}
+.inBanner2
+{
+  font-weight: 300;
+  font-family: DB Heavent;
+  font-size: 24px;
+  background-color: rgb(60,88,156);
+}
 .acc_country1{
   color: #FFF;
+  font-size: 48px;
+  text-align: right;
+  font-family: DB Heavent;
+  font-weight: 300;
+}
+.acc_country2{
+  color: #FFF;
+  font-size: 40px;
+  text-align: right;
+  font-family: DB Heavent;
+  font-weight: 300;
+}
+.acc_elearn
+{
+  color:rgb(61,88,155);
+  font-family:DB Heavent;
+  font-size: 32px;
+}
+.top5nea
+{
+  font-family: DB Heavent;
+  font-size: 32px;
+  font-weight:400;
+  color : #FFF;
+}
+.cus_jour
+{
+  color:rgb(73,93,143);
+  font-family: DB Heavent;
+  font-size: 48px;
+  font-weight: 300;
 }
 
+.acc_country2
+{
+  font-family:DB Heavent ;
+}
 .elearn1
 {
-  font-size: 20px;
+  font-size: 48px;
+  font-family: DB Heavent;
   font-weight: bold;
   color:#FFF;
   padding-left:25%;
 }
+.inColUp4{
+  width: 100%;
+  height: 100%;
 
+}
 .inColUp6{
   width: 110px;
   height: 312px;
@@ -105,24 +195,13 @@
   height:440px;
   background-color: rgb(255,255,255);
 }
-.inColUp2
-{
-  width:250px;
-  height:248px;
 
+.bgBussiness{
+  margin-left:5%;
+  background: url('../assets/Businessx.jpg') no-repeat;
+  width: 100%;
+  height:120%;
 }
-
-.inColUp4{
-  width: 160px;
-  height: 160px;
-  background-color: rgb(39,59,107);
-}
-.inColUp5{
-  width: 160px;
-  height: 160px;
-  background-color:rgb(61,88,155);
-}
-
 
 .lower1{
   width:474px;
@@ -141,27 +220,41 @@
   background-color: rgb(235,241,248);
 }
 .inLower1{
-  width: 106px;
-  height: 118px;
+  font-size: 24px ;
+  font-family: DB Heavent;
   background-color: rgb(22,35,64);
 }
 .inLower2{
-  width: 106px;
-  height: 118px;
+  font-size: 24px ;
+  font-family: DB Heavent;
   background-color: rgb(61,88,155);
+}
+.top5ex
+{
+  font-size: 24px;
+  font-family:DB Heavent;
+  color:#FFF;
+  font-weight: bold;
 }
 .lowBanner1{
   height: 210px;
   width: 210px;
+  font-size: 48px;
+  font-weight:400;
+  font-family: DB Heavent;
 
 }
 .lowBanner2{
   height: 210px;
   width: 210px;
   background-color: rgb(61,88,155);
+  font-family: "../assets/DBHeavFont/DB Heavent";
 }
 .lowBanner3{
   height: 210px;
   width: 210px;
+  color:rgb(66,74,93);
+  font-weight: 400;
+  font-family:DB Heavent;
 
 }
